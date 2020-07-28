@@ -11,8 +11,8 @@
 char k='1';
 int BassTab[]={1911,1702,1516,1431,1275,1136,1012};//bass 1~7
 
-const char* ssid = "FIWARE";
-const char* password =  "!FIWARE!on!air!";
+const char* ssid = "";
+const char* password =  "";
 #define mqtt_server "192.168.20.185"
 WiFiClient espClient;
 PubSubClient client(espClient);
