@@ -6,8 +6,8 @@
 /*macro definitions of PIR motion sensor pin and LED pin*/
 #define PIR_MOTION_SENSOR 2//Use pin 2 to receive the signal from the module
 
-const char* ssid = "FIWARE";
-const char* password =  "!FIWARE!on!air!";
+const char* ssid = "";
+const char* password =  "";
 #define mqtt_server "192.168.20.185"
 WiFiClient espClient;
 PubSubClient client(espClient);
