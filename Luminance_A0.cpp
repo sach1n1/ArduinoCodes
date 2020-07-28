@@ -6,9 +6,8 @@
 
 float VoutArray[] =  { 0.0011498,  0.0033908,   0.011498, 0.041803,0.15199,     0.53367, 1.3689,   1.9068,  2.3};
 float  LuxArray[] =  { 1.0108,     3.1201,  9.8051,   27.43,   69.545,   232.67,  645.11,   73.52,  1000};
-
-const char* ssid = "FIWARE";
-const char* password =  "!FIWARE!on!air!";
+const char* ssid = "";
+const char* password =  "";
 #define mqtt_server "192.168.20.185"
 WiFiClient espClient;
 PubSubClient client(espClient);
