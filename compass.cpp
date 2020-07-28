@@ -9,8 +9,8 @@
 
 BMM150 bmm = BMM150();
 
-const char* ssid = "FIWARE";
-const char* password =  "!FIWARE!on!air!";
+const char* ssid = "";
+const char* password =  "";
 #define mqtt_server "192.168.20.185"
 WiFiClient espClient;
 PubSubClient client(espClient);
